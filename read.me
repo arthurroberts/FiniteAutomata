@@ -1,2 +1,10 @@
-Trying non-deterministic automata code
-Problem
+Trying non-deterministic finite automata code
+Data structures:
+State
+struct State{
+	int num; // number ??
+	std::vector<Edge> out_edges; // 
+	bool accepting;
+	// output (string) for Moore machine
+	void print();
+};
